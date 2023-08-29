@@ -1,0 +1,29 @@
+{
+    "name": "jesus/app-salon-jsa",
+    "description": "Proyecto PHP 8,MVC,ect",
+    "type": "proyecto",
+    "authors": [
+        {
+            "name": "Jesus Sanchez A"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7",
+        "phpmailer/phpmailer": "^6.8",
+        "vlucas/phpdotenv": "^5.5"
+    },
+
+    "autoload": {       
+        "psr-4": {
+            "Model\\" : "./models",
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Classes\\" : "./classes"
+        }
+    }
+    
+    
+    
+    
+  
+}
